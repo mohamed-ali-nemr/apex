@@ -1,0 +1,39 @@
+  /* Dotted Navigation */
+  .home5-bullet {
+    display: flex;
+    gap: 10px; /* Space between dots */
+    padding: 0;
+    margin: 0;
+  }
+
+  .home5-bullet li {
+    width: 12px;
+    height: 12px;
+    background-color: #4798fb; /* Hover effect */
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+
+  .home5-bullet li:hover {
+    background-color: #007bff; /* Hover effect */
+  }
+
+  .home5-bullet li.active {
+    background-color: #0091ff; /* Hover effect */
+  }
+
+  .custom-img-border {
+    border: 5px solid #007bff; /* Blue border with thicker width */
+    border-radius: 8px; /* Optional rounded corners for a polished look */
+  }
+
+  .tour-section .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .tour-section .btn {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

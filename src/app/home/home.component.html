@@ -1,0 +1,320 @@
+<style>
+  .service-list i {
+    font-size: 24px;
+    color: #17a2b8;
+  }
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+</style>
+
+<!-- Header -->
+<app-header></app-header>
+
+<!-- Search Section -->
+<section
+  class="py-5 bg-light position-absolute top-70 start-50 translate-middle w-75 shadow-lg rounded-3"
+>
+  <div class="container d-flex justify-content-center">
+    <form class="row g-3">
+      <div class="col-md-3">
+        <select class="form-select rounded-pill">
+          <option selected>اختر نوع الرحلة</option>
+          <option>مغامرة</option>
+          <option>استرخاء</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <select class="form-select rounded-pill">
+          <option selected>اختر نوع الرحلة</option>
+          <option>مغامرة</option>
+          <option>استرخاء</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <input
+          type="number"
+          class="form-control rounded-pill"
+          placeholder="السعر"
+        />
+      </div>
+      <div class="col-md-3">
+        <button type="submit" class="btn btn-primary w-100 rounded-pill">
+          البحث
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Destinations Section -->
+<!-- Destinations Section -->
+<section class="py-5 px-5 bg-light mt-5">
+  <div class="container text-center">
+    <h2 class="mb-5">استكشف الوجهات</h2>
+    <div class="row g-1">
+      <!-- Five cards sharing the row width -->
+      <div class="col-md-2">
+        <div class="card">
+          <img
+            src="../../assets/3969fa277c8004c50ae8e461cc138e04.png"
+            class="card-img-top border border-primary"
+            alt="محافظة ظفار"
+          />
+        </div>
+        <h5 class="card-title">محافظة ظفار</h5>
+      </div>
+      <div class="col-md-2">
+        <div class="card">
+          <img
+            src="../../assets/7103abe6c0e123013700046854748189.png"
+            class="card-img-top border border-primary"
+            alt="جبال الحجر"
+          />
+        </div>
+        <h5 class="card-title">جبال الحجر</h5>
+      </div>
+      <div class="col-md-2">
+        <div class="card">
+          <img
+            src="../../assets/400149b30a4835e3aef0203816cca3fa.png"
+            class="card-img-top border border-primary"
+            alt="مسقط"
+          />
+        </div>
+        <h5 class="card-title">مسقط</h5>
+      </div>
+      <div class="col-md-2">
+        <div class="card">
+          <img
+            src="../../assets/70fa48d8263f764e6da67469c7e2c92f.png"
+            class="card-img-top border border-primary"
+            alt="وادي شاب"
+          />
+        </div>
+        <h5 class="card-title">وادي شاب</h5>
+      </div>
+      <div class="col-md-2">
+        <div class="card">
+          <img
+            src="../../assets/e1ac70b78b545d2d5e83371d20e75459.png"
+            class="card-img-top border border-primary"
+            alt="صور"
+          />
+        </div>
+        <h5 class="card-title">صور</h5>
+      </div>
+      <div class="col-md-2">
+        <div class="card">
+          <img
+            src="../../assets/400149b30a4835e3aef0203816cca3fa.png"
+            class="card-img-top border border-primary"
+            alt="صور"
+          />
+        </div>
+        <h5 class="card-title">مسقط</h5>
+      </div>
+    </div>
+
+    <!-- Dotted Navigation -->
+    <ul class="home5-bullet mt-5 d-flex justify-content-center list-unstyled">
+      <li class="active"></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Images -->
+      <div class="col-md-6">
+        <div class="position-relative">
+          <img
+            src="../../assets/b956e8614f93b689ff821b049c728688.png"
+            alt="First Image"
+            class="img-fluid rounded shadow-lg rounded-pill"
+            style="
+              width: 75%;
+              position: relative;
+              margin-top: 50px;
+              margin-left: 25%;
+            "
+          />
+          <img
+            src="../../assets/b956e8614f93b689ff821b049c728688.png"
+            alt="Second Image"
+            class="img-fluid rounded shadow-lg rounded-pill"
+            style="position: absolute; top: 0; left: 0; width: 60%; z-index: 1"
+          />
+        </div>
+      </div>
+      <!-- Text and Services -->
+      <div class="col-md-6">
+        <h2 class="mb-4">الخدمات</h2>
+        <p class="mb-5">
+          توفر شركة <strong>Round In Oman</strong> العديد من الخدمات المتنوعة
+          والمميزة استكشفها واستمتع معنا.
+        </p>
+        <!-- Service Items -->
+        <div
+          class="service-item d-flex align-items-center mb-4 p-3 bg-white shadow-sm rounded"
+        >
+          <div
+            class="icon bg-primary text-white rounded-circle d-flex justify-content-center align-items-center me-3"
+            style="width: 50px; height: 50px"
+          >
+            <i class="fa-solid fa-umbrella-beach"></i>
+          </div>
+          <div>
+            <h5 class="mb-1">خدمات الرحلات</h5>
+            <p class="mb-0">
+              فرصة رائعة لاكتشاف أماكن جديدة وتجربة مغامرات مميزة.
+            </p>
+          </div>
+        </div>
+        <div
+          class="service-item d-flex align-items-center mb-4 p-3 bg-white shadow-sm rounded"
+        >
+          <div
+            class="icon bg-purple text-white rounded-circle d-flex justify-content-center align-items-center me-3"
+            style="width: 50px; height: 50px"
+          >
+            <i class="fa-solid fa-car"></i>
+          </div>
+          <div>
+            <h5 class="mb-1">خدمات التنقل</h5>
+            <p class="mb-0">
+              يمكنك حجز تاكسي أو تأجير سيارة حسب طلبك لإكمال رحلتك معنا.
+            </p>
+          </div>
+        </div>
+        <div
+          class="service-item d-flex align-items-center mb-4 p-3 bg-white shadow-sm rounded"
+        >
+          <div
+            class="icon bg-teal text-white rounded-circle d-flex justify-content-center align-items-center me-3"
+            style="width: 50px; height: 50px"
+          >
+            <i class="fa-solid fa-mountain"></i>
+          </div>
+          <div>
+            <h5 class="mb-1">الخدمات الترفيهية</h5>
+            <p class="mb-0">
+              وسيلة رائعة لإضافة المتعة والتنوع إلى رحلتك. اختيار الأنشطة
+              الترفيهية التي تناسب اهتماماتهم.
+            </p>
+          </div>
+        </div>
+        <div
+          class="service-item d-flex align-items-center p-3 bg-white shadow-sm rounded"
+        >
+          <div
+            class="icon bg-info text-white rounded-circle d-flex justify-content-center align-items-center me-3"
+            style="width: 50px; height: 50px"
+          >
+            <i class="fa-solid fa-hotel"></i>
+          </div>
+          <div>
+            <h5 class="mb-1">خدمة حجز الفنادق</h5>
+            <p class="mb-0">
+              خدمة حجز الفنادق هي طريقة مريحة وسهلة لضمان مكان إقامة مناسب أثناء
+              الرحلات.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tours Section -->
+<a href="#" class="btn btn-primary btn-sm px-4 mx-auto">
+  <i class="fa fa-arrow-left me-1"></i> استكشف
+</a>
+<section class="tour-section py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Title and Description -->
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <h2 class="text-primary">الرحلات السياحية</h2>
+        <p class="text-muted">استمتع باستكشاف رحلتك السياحية المميزة</p>
+        <!-- Navigation Arrows -->
+        <div class="d-flex justify-content-end mt-4">
+          <button class="btn btn-primary rounded-circle me-2">
+            <i class="fa fa-arrow-right"></i>
+          </button>
+          <button class="btn btn-primary rounded-circle">
+            <i class="fa fa-arrow-left"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Cards Carousel -->
+      <div class="col-lg-8">
+        <div class="d-flex overflow-auto">
+          <!-- Card 1 -->
+          <div class="card me-3" style="min-width: 250px; border: none">
+            <img
+              src="../../assets/3969fa277c8004c50ae8e461cc138e04.png"
+              class="card-img-top rounded"
+              alt="الرحلة"
+            />
+            <div class="card-body bg-white rounded-bottom">
+              <h5 class="card-title text-truncate">الرحلة الصحراوية</h5>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="card me-3" style="min-width: 250px; border: none">
+            <img
+              src="../../assets/82aead23cdfc5754342f60effbcf4ff7.png"
+              class="card-img-top rounded"
+              alt="الرحلة"
+            />
+            <div class="card-body bg-white rounded-bottom">
+              <h5 class="card-title text-truncate">الرحلة الثقافية</h5>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="card me-3" style="min-width: 250px; border: none">
+            <img
+              src="../../assets/1fffe19b6dddcfaed0e0766b86566451.png"
+              class="card-img-top rounded"
+              alt="الرحلة"
+            />
+            <div class="card-body bg-white rounded-bottom">
+              <h5 class="card-title text-truncate">الرحلة العائلية</h5>
+              <div
+                class="d-flex justify-content-between align-items-center mt-2"
+              >
+                <span class="badge bg-warning text-dark">
+                  <i class="fa fa-star"></i> 4.5
+                </span>
+                <span>50 ر.ع</span>
+                <a href="#" class="btn btn-outline-primary btn-sm"> المزيد </a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="card me-3" style="min-width: 250px; border: none">
+            <img
+              src="../../assets/b956e8614f93b689ff821b049c728688.png"
+              class="card-img-top rounded"
+              alt="الرحلة"
+            />
+            <div class="card-body bg-white rounded-bottom">
+              <h5 class="card-title text-truncate">الرحلة البحرية</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<app-footer></app-footer>

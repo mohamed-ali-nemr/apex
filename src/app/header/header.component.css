@@ -1,0 +1,28 @@
+
+.nav-link{
+    color: white;   
+}
+body {
+    font-family: "Neo Sans Arabic", sans-serif;
+  }
+  .hero {
+    background: url('../../assets/980e3fb4d0d92de8b4198a5e9c931e26.png') center/cover no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .rounded{
+    width:  250px;
+    height: 50px;
+    border-radius:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+
+  }
